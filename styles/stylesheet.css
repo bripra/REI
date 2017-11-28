@@ -1,0 +1,95 @@
+/* this style sheet is for the main (index.html) page */
+
+
+header{
+  
+  background-color: lightblue;
+  color: mediumpurple;
+  text-align: center;
+  font-size: 3em;
+  padding: 1vh 0vw 0vh 0vw;
+}
+
+
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+
+nav{
+  background-color: mediumpurple;
+  margin: auto;
+  text-align: center;
+  padding: 1vh 0;
+      
+}
+
+.content-wrapper{
+  
+  
+  background-color: white;
+  width: 50vw;
+  margin: auto;
+}
+
+.product{
+  float: left;
+  width: 12vw;
+ margin: 3vh 1vw 1vh 1vw;
+  text-align: center;
+  
+}
+
+.m_title{
+  text-align: center;
+  margin: 2vh;
+}
+
+.m_price{
+  text-align: center;
+  margin: 1vh;
+}
+
+.m_stars {
+  text-align: center;
+  margin: 1vh;
+}
+
+button{
+  background-color: cornflowerblue;
+  border-radius: 50vw;
+  color: white;
+}
+
+img.product {
+  width: 10vw;
+  height: 20vh;
+  
+}
+
+
+
+/* Main navigation element styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 1vw;
+  font-size: .50em;
+  font-weight: bold;
+  
+    
+}
+
+
+footer {
+  background-color: white;
+  clear: both;
+  margin: auto;
+  padding: 5%;
+  text-align: center;
+  display: block;
+  
+  
+    
+}
+
